@@ -1,0 +1,46 @@
+.nav {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: grid;
+  grid-template-columns: 10% 60% 30%;
+  /* background: linear-gradient(#38a7e7, #3eb2ff); */
+  background-color: rgba(0, 0, 216, 0.4);
+  box-shadow: 5px 10px 50px 5px rgb(255, 255, 255);
+}
+.rank {
+  padding-top: 20px;
+  min-width: 200px;
+  justify-self: start;
+  text-align: left;
+}
+.space {
+  width: 100%;
+  /* border: 2px white solid; */
+}
+.options {
+  align-self: center;
+}
+.signout {
+  align-self: center;
+  justify-self: center;
+  /* padding-right: 20px; */
+  margin: 5px;
+  width: 40%;
+  font-weight: 900;
+  background-color: rgb(107, 201, 255, 0.6);
+  box-shadow: 2px 2px 4px 2px rgb(41, 7, 128);
+}
+.logo {
+  height: 100px;
+  width: 100%;
+  min-width: 100px;
+}
+img {
+  position: absolute;
+  left: 5px;
+  box-shadow: 1px 1px 1px 1px #ffffff;
+  background-color: white;
+}
+
+@media only screen and (max-width: 600px) {
+}
